@@ -23,7 +23,11 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'cucumber-rails'
+  gem 'database_cleaner'
+
   gem 'guard-rspec'
+  gem 'guard-cucumber'
   gem 'guard-spork'
   gem 'rb-inotify'
 end
