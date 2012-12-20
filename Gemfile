@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'unicorn'
-
 gem 'rails', '3.2.9'
 gem 'haml-rails'
 gem 'coffee-filter'
@@ -17,17 +15,24 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
-
 gem 'jquery-rails'
 
-
-group :development, :test do
+group :test do
   gem 'rspec-rails'
-  gem 'cucumber-rails'
+
+  gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
+
+  gem 'poltergeist'
 
   gem 'guard-rspec'
   gem 'guard-cucumber'
   gem 'guard-spork'
   gem 'rb-inotify'
+end
+gem 'listen', :github => 'guard/listen', :branch => 'linux_events'
+
+group :production do
+  gem 'unicorn'
+  gem 'pg'
 end
