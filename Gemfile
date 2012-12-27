@@ -19,7 +19,7 @@ group :assets do
 end
 gem 'jquery-rails'
 
-group :test do
+group :development, :test do
   gem 'rspec-rails'
 
   gem 'cucumber-rails', :require => false
