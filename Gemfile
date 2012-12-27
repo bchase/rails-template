@@ -4,6 +4,8 @@ gem 'rails', '3.2.9'
 gem 'haml-rails'
 gem 'coffee-filter'
 
+gem 'simple_form'
+
 gem 'sqlite3'
 
 # gem 'therubyracer', :platforms => :ruby
