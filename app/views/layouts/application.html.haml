@@ -31,6 +31,12 @@
               %li= link_to "Link", "#"
 
     .container
+      -# .content
+        .row
+          .span12
+            .alerts
+              %p.notice{style:'display:none'}= notice
+              %p.alert{style:'display:none'}=  alert
 
       .row
         .span9
@@ -41,3 +47,10 @@
         %p &copy; Company 2012
 
     = javascript_include_tag "application"
+
+    -# - if notice
+      :coffeescript
+        $('.notice').show(600)
+    -# - if alert
+      :coffeescript
+        $('.alert').show(600)
