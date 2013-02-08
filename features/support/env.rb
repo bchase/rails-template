@@ -61,6 +61,16 @@ require 'cucumber/rails'
 # steps to use the XPath syntax.
 Capybara.default_selector = :css
 
+require 'capybara/poltergeist'
+Capybara.javascript_driver = :poltergeist
+# requires current phantomjs install
+# on debian systems, clear old nodejs and npm
+# install the latest:
+# sudo apt-get install python-software-properties
+# sudo add-apt-repository ppa:chris-lea/node.js
+# sudo apt-get update
+# sudo apt-get install nodejs npm
+
 # By default, any exception happening in your Rails application will bubble up
 # to Cucumber so that your scenario will fail. This is a different from how 
 # your application behaves in the production environment, where an error page will 
