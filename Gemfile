@@ -6,10 +6,8 @@ gem 'coffee-filter'
 
 gem 'simple_form'
 
-gem 'sqlite3'
-
-# gem 'therubyracer', :platforms => :ruby
-# gem 'less-rails'
+gem 'therubyracer', :platforms => :ruby
+gem 'less-rails'
 gem 'twitter-bootstrap-rails'
 gem 'font-awesome-rails'
 
@@ -22,6 +20,8 @@ end
 gem 'jquery-rails'
 
 group :development, :test do
+  gem 'sqlite3'
+
   gem 'rspec-rails'
 
   gem 'cucumber-rails', :require => false

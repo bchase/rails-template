@@ -248,6 +248,7 @@ DEPENDENCIES
   guard-spork
   haml-rails
   jquery-rails
+  less-rails
   listen!
   pg
   poltergeist
@@ -257,6 +258,7 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   simple_form
   sqlite3
+  therubyracer
   twitter-bootstrap-rails
   uglifier (>= 1.0.3)
   unicorn
