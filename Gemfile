@@ -6,6 +6,8 @@ gem 'coffee-filter'
 
 gem 'simple_form'
 
+gem 'devise'
+
 gem 'therubyracer', :platforms => :ruby
 gem 'less-rails'
 gem 'twitter-bootstrap-rails'
