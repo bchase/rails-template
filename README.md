@@ -40,7 +40,8 @@ $ cd app-name
 
 # then clone the git repo into that directory
 $ git clone git@github.com:bchase/rails-template.git .
-# NOTE: as above, the repo should be cloned into `.` (the working directory)
+# NOTE: this clones the repo into the working directory 
+# with `.` (here, this represents the new `app-name` dir)
 
 # for an app with user auth already started, clone from the the `devise` branch instead
 # $ git clone git@github.com:bchase/rails-template.git . -b devise
