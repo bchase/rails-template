@@ -121,13 +121,13 @@ $ heroku run rake routes
 
 ### Updating Rails
 
-If your application is running on Heroku, and the update is in regards to a security vulnerability, it's might a good idea to flip maintenance mode on production while you work. This can be accomplished with the following:
+If your application is running on Heroku, and this update is in regards to a security vulnerability, it's a good idea to activate maintenance mode on production while you work. This can be accomplished with the following:
 
 ```bash
 $ heroku maintenance:on
 ```
 
-First, it's a good idea to run all tests to make sure the update does not cause regressions. Run the following and take note of the numbers for passed/failed/pending:
+It's also a good idea to run all tests to make sure the update does not cause regressions. Run the following and take note of the numbers for passed/failed/pending:
 
 ```bash
 $ rake cucumber
