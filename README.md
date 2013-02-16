@@ -75,7 +75,7 @@ If `rails server` fires up without error, you'll find the Rails app running at `
 $ foreman start
 ```
 
-### Deployment to Heroku
+## Deploying to Heroku
 
 ```
 # create a heroku account at http://api.heroku.com/signup
@@ -105,7 +105,7 @@ $ heroku run console
 # and uses the `heroku` remote from above
 ```
 
-### Checking Available Routes
+## Checking Available Routes
 
 For a local Rails app:
 
@@ -119,7 +119,7 @@ For Heroku:
 $ heroku run rake routes
 ```
 
-### Updating Rails
+## Updating Rails
 
 If your application is running on Heroku, and this update is in regards to a security vulnerability, it's a good idea to activate maintenance mode on production while you work. This can be accomplished with the following:
 
