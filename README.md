@@ -175,6 +175,6 @@ $ git push heroku master
 
 Finally, be sure to turn your maintenance message off:
 
-> ```bash
+```bash
 $ heroku maintenance:off
 ```
