@@ -35,7 +35,6 @@ First, obtain the code:
 
 ```bash
 # create a directory where your app will live locally
-$ cd rails
 $ mkdir app-name
 $ cd app-name
 
