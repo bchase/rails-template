@@ -44,7 +44,7 @@ $ git clone git@github.com:bchase/rails-template.git .
 # with `.` (here, this represents the new `app-name` dir)
 
 # for an app with user auth already started, clone from the the `devise` branch instead
-# $ git clone git@github.com:bchase/rails-template.git . -b devise
+# $ git clone git@github.com:bchase/rails-template.git -b devise .
 ```
 
 Next, get rid of the local git repo, create your own, and push:
