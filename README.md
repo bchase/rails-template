@@ -127,7 +127,7 @@ If your application is running on Heroku, and this update is in regards to a sec
 $ heroku maintenance:on
 ```
 
-It's also a good idea to run all tests to make sure the update does not cause regressions. Run the following and take note of the numbers for passed/failed/pending:
+It's also a good idea to run all your tests before and after updating, so that you can compare the failure numbers and ensure the update did not cause any regressions. Run the everything and take note of the numbers for passed/failed/pending:
 
 ```bash
 $ rake cucumber
@@ -151,7 +151,7 @@ Then update the bundle:
 $ bundle update rails
 ```
 
-If all goes well, try running the tests/specs again:
+If all goes well, try re-running the tests/specs:
 
 ```bash
 $ rake cucumber
