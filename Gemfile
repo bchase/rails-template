@@ -45,7 +45,12 @@ group :development, :test do
   gem 'guard-rspec'
   gem 'guard-cucumber'
   gem 'guard-spork'
-  gem 'rb-inotify'
+
+  if RUBY_PLATFORM.match(/linux/i)
+    gem 'rb-inotify' 
+  elsif RUBY_PLATFORM.match(/darwin/i)
+    gem 'rb-fsevent' 
+  end
 end
 gem 'listen', :github => 'guard/listen', :branch => 'linux_events'
 
