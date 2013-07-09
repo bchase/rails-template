@@ -1,6 +1,6 @@
 # Rails Template
 
-This is a template Rails 3.2.11 application that includes:
+This is a template Rails 4.0.0 application that includes:
 
 * Haml, SimpleForm
 * RSpec, Cucumber, factory_girl, Poltergeist, Guard, Spork
@@ -19,14 +19,14 @@ Assuming you're on a *nix system, install [RVM (Ruby Version Manager)](https://r
 $ curl -L https://get.rvm.io | bash -s stable --ruby
 ```
 
-Then check to see that you have Ruby 1.9.3 or later:
+Then check to see that you have Ruby 2.0.0 or later:
 
 ```bash
 $ ruby --version
-ruby 1.9.3p286 (2012-10-12 revision 37165) [x86_64-linux]
+ruby 2.0.0p0 (2013-02-24 revision 39474) [x86_64-linux]
 
-# rvm should auto-install Ruby 1.9.3 or greater, if not run:
-# $ rvm install 1.9.3
+# rvm should auto-install Ruby 2.0.0 or greater, if not run:
+# $ rvm install 2.0.0
 ```
 
 ### Obtaining and Using the Rails App
