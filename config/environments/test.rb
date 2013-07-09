@@ -34,4 +34,10 @@ App::Application.configure do
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+
+  # Do not eager load code on boot.
+  config.eager_load = false
+  # # TODO set to true for spork?
+  # config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+  # * test - set it to false (unless you use a tool that preloads your test environment)
 end
