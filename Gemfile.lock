@@ -1,14 +1,4 @@
 GIT
-  remote: git://github.com/guard/listen.git
-  revision: 32bb28b3c64b2c90b28db2f5ab69ffd9d7ad0a14
-  branch: linux_events
-  specs:
-    listen (0.4.6)
-      rb-fchange (~> 0.0.5)
-      rb-fsevent (~> 0.9.1)
-      rb-inotify (~> 0.8.8)
-
-GIT
   remote: git://github.com/plataformatec/simple_form.git
   revision: 3ea3226e2f5eb83c6723639fc10480a721347f7e
   specs:
@@ -130,6 +120,7 @@ GEM
       actionpack (>= 3.1)
       less (~> 2.3.1)
     libv8 (3.11.8.17)
+    listen (0.7.3)
     lumberjack (1.0.4)
     mail (2.5.4)
       mime-types (~> 1.16)
@@ -170,9 +161,6 @@ GEM
       thor (>= 0.18.1, < 2.0)
     raindrops (0.11.0)
     rake (10.1.0)
-    rb-fchange (0.0.6)
-      ffi
-    rb-fsevent (0.9.3)
     rb-inotify (0.8.8)
       ffi (>= 0.5.0)
     rdoc (3.12.2)
@@ -257,7 +245,7 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   less-rails
-  listen!
+  listen
   pg
   poltergeist
   rails (= 4.0.0)
