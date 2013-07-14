@@ -141,7 +141,7 @@ Now open up the `Gemfile` and change the version string for Rails:
 
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.11' # <= VERSION STRING
+gem 'rails', '4.0.0' # <= VERSION STRING
 # ...
 ```
 
@@ -164,7 +164,7 @@ Once everything works, make a commit, push your changes, and deploy (if applicab
 
 ```bash
 $ git add .
-$ git commit -m 'update rails[, additonal information]'
+$ git commit -m 'update rails[, additional information]'
 
 # push to origin
 $ git push
